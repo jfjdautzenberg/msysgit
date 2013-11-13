@@ -10,3 +10,5 @@
 @if not exist "%HOME%" @set HOME=%USERPROFILE%
 
 @start "gitk" wish.exe "%git_install_root%\bin\gitk" -- %*
+
+@rem modified by JFJD

@@ -21,3 +21,4 @@ mkdir -p certs &&
 echo "$out" |
 sed -n '/^-----BEGIN CERTIFICATE/,/^-----END CERTIFICATE/p' \
 	> certs/$host.pem
+# modified by JFJD
